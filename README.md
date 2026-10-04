@@ -11,3 +11,5 @@ pip install -r requirements.txt
 python fanduel_odds.py --sport NBA --output lines.jsonl
 
 FanDuel's API doesn't require auth for basic odds, but they rate-limit aggressively. I sleep between requests and retry on 429s.
+
+<!-- last-checked: 2026-10-04 -->
